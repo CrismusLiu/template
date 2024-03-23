@@ -26,6 +26,17 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 - vscode-icons: 图标优化
 - YAML: YAML 文件支持
 
+### 安装sccache
+MacOS: 
+``` brew install sccache ```
+
+Windows: 
+```bash
+scoop install sccache
+或者
+cargo: cargo install sccache
+```
+
 ### 安装 cargo generate
 
 cargo generate 是一个用于生成项目模板的工具。它可以使用已有的 github repo 作为模版生成新的项目。
